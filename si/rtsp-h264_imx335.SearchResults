@@ -1,0 +1,3 @@
+---- SENSOR0_TYPE Matches (2 in 2 files) ----
+Sample_comm_isp.c (z:\hi3516dv300\rtsp-h264_imx335):    SENSOR0_TYPE,
+Sample_comm_vi.c (z:\hi3516dv300\rtsp-h264_imx335):    pstViConfig->astViInfo[0].stSnsInfo.enSnsType = SENSOR0_TYPE;
