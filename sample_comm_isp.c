@@ -296,8 +296,8 @@ ISP_SNS_OBJ_S* SAMPLE_COMM_ISP_GetSnsObj(HI_U32 u32SnsId)
 
     switch (enSnsType)
     {
-        case SONY_IMX335_MIPI_5M_30FPS_12BIT:
-            return &stSnsImx335Obj;
+        case SONY_IMX327_MIPI_2M_30FPS_12BIT:
+            return &stSnsImx327Obj;
 
         default:
             return HI_NULL;

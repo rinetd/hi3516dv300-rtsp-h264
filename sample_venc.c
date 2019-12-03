@@ -491,7 +491,7 @@ void *SAMPLE_VENC_H265_H264(void *p)
     HI_S32 i;
     HI_S32 s32Ret;
     SIZE_S          stSize[2];
-    PIC_SIZE_E      enSize[2]     = {PIC_3840x2160, PIC_720P};
+    PIC_SIZE_E      enSize[2]     = {PIC_1080P, PIC_720P};
     HI_S32          s32ChnNum     = 2;
     VENC_CHN        VencChn[2]    = {0,1};
     HI_U32          u32Profile[2] = {0,0};
